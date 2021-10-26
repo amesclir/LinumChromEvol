@@ -1,0 +1,8 @@
+#$ -S /bin/bash
+#$ -N chromEvol_param_CONST_RATE_NO_DUPL_linum
+#$ -wd /home/aescudero/PIP/linum
+#$ -o chromevol_linum.salida
+#$ -e chromevol_linum.err
+#$ -q diaria_simple
+/home/aescudero/PIP/chromEvol param_CONST_RATE_NO_DUPL
+

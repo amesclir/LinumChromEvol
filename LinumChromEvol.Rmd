@@ -1,0 +1,22 @@
+---
+title: "LinumChromEvol"
+author: "Marcial Escudero"
+date: "10/26/2021"
+output: html_document
+---
+
+```{r}
+library(ape)
+mytree <- read.tree("linum.tree") 
+mytree
+#tipstokeep <- source("tips.R")
+
+tipstoremove <- setdiff(mytree$tip.label,tipstokeep)
+tipstoremove
+
+mytree <- drop.tip(mytree, tipstoremove)
+mytree
+write.tree(mytree, file= "linum.tree")
+
+```
+
