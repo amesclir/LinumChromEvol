@@ -1,0 +1,298 @@
+#Nodes with GAIN events with expectation above 0.5
+L_gallicum: 0.895629
+L_gyaricum: 0.965269
+N21: 0.657156
+L_rupestre: 0.746804
+L_hologynum: 1.92131
+L_stelleroides: 0.854945
+Re_indica: 1.637
+Total number of gain events: 15.0612
+#+++++++++++++++++++++++++++++
+
+#Nodes with LOSS events with expectation above 0.5
+N3: 1.63381
+N12: 2.08764
+L_nodiflorum: 1.09011
+L_corymbulosum: 0.919296
+L_catharticum: 1.40125
+L_kingii: 4.30335
+L_vernale: 2.32289
+S_digynum: 2.88692
+N36: 1.94312
+N40: 0.647315
+N44: 0.584352
+N52: 0.622452
+N56: 3.29172
+L_narbonense: 1.11001
+N57: 0.670556
+L_grandiflorum: 0.953085
+L_stelleroides: 1.5228
+N58: 1.98594
+Re_indica: 2.80062
+Total number of loss events: 42.4728
+#+++++++++++++++++++++++++++++
+
+#Nodes with duplication events with expectation above 0.5
+L_suffruticosum1: 0.626514
+N12: 0.900871
+N27: 0.885688
+L_macraei: 1
+He_micranthum: 0.999888
+N36: 0.999563
+L_aroanium1: 0.961007
+N55: 0.65711
+Total number of duplication events: 8.79982
+#+++++++++++++++++++++++++++++
+
+#Nodes with demi-duplication events with expectation above 0.5
+Total number of demi-dulications events: 0
+#+++++++++++++++++++++++++++++
+
+#EVENTS NOT ACCOUNTED FOR IN THE SIMULATIONS: 
+N7:ML=9 to L_corymbiferum:ML=9=0.6_15=0.4  sum expections= 0.0893346
+	HEURISTIC ESTIMATION:	Gains = 0	Losses = 0.8	Duplications = 0.4	Demi-dupl = 0
+N8:ML=9 to L_strictum:ML=9=0.86_15=0.06_16=0.08  sum expections= 0.112275
+	HEURISTIC ESTIMATION:	Gains = 0	Losses = 0.2	Duplications = 0.14	Demi-dupl = 0
+N10:ML=9 to L_suffruticosum1:ML=18=0.27_36=0.73  sum expections= 0.63278
+	HEURISTIC ESTIMATION:	Gains = 0	Losses = 0	Duplications = 1.73	Demi-dupl = 0
+N10:ML=9 to L_tenuifolium1:ML=8=0.07_9=0.74_18=0.19  sum expections= 0.0141277
+	HEURISTIC ESTIMATION:	Gains = 0	Losses = 0.07	Duplications = 0.19	Demi-dupl = 0
+N18:ML=14 to L_elegans:ML=14=0.67_15=0.33  sum expections= 0.0252057
+	HEURISTIC ESTIMATION:	Gains = 0.33	Losses = 0	Duplications = 0	Demi-dupl = 0
+N17:ML=14 to L_campanulatum:ML=9=0.17_14=0.83  sum expections= 0.0167533
+	HEURISTIC ESTIMATION:	Gains = 0	Losses = 0.85	Duplications = 0	Demi-dupl = 0
+N19:ML=14 to L_capitatum:ML=12=0.1_14=0.8_17=0.1  sum expections= 0.0338146
+	HEURISTIC ESTIMATION:	Gains = 0.3	Losses = 0.2	Duplications = 0	Demi-dupl = 0
+N20:ML=14 to L_tauricum:ML=9=0.25_14=0.75  sum expections= 0.0517366
+	HEURISTIC ESTIMATION:	Gains = 0	Losses = 1.25	Duplications = 0	Demi-dupl = 0
+N15:ML=14 to L_flavum:ML=14=0.5_15=0.5  sum expections= 0.105931
+	HEURISTIC ESTIMATION:	Gains = 0.5	Losses = 0	Duplications = 0	Demi-dupl = 0
+N12:ML=14 to L_nodiflorum:ML=12=0.14_13=0.86  sum expections= 1.14407
+	HEURISTIC ESTIMATION:	Gains = 0	Losses = 0.86	Duplications = 0	Demi-dupl = 0
+N22:ML=10 to L_tenue1:ML=10=0.72_15=0.14_20=0.14  sum expections= 0.0756404
+	HEURISTIC ESTIMATION:	Gains = 0	Losses = 0.42	Duplications = 0.28	Demi-dupl = 0
+N21:ML=10 to L_maritimum:ML=9=0.2_10=0.8  sum expections= 0.320852
+	HEURISTIC ESTIMATION:	Gains = 0	Losses = 0.2	Duplications = 0	Demi-dupl = 0
+N29:ML=18 to L_littorale:ML=18=0.33_36=0.67  sum expections= 0.333033
+	HEURISTIC ESTIMATION:	Gains = 0	Losses = 0	Duplications = 0.67	Demi-dupl = 0
+N32:ML=18 to L_striatum:ML=6=0.33_9=0.34_18=0.33  sum expections= 0.602631
+	HEURISTIC ESTIMATION:	Gains = 0	Losses = 3.06	Duplications = 0	Demi-dupl = 0
+N37:ML=15 to L_africanum:ML=15=0.7_16=0.2_29=0.1  sum expections= 0.211003
+	HEURISTIC ESTIMATION:	Gains = 0.2	Losses = 0.1	Duplications = 0.1	Demi-dupl = 0
+N50:ML=9 to L_alpinum:ML=9=0.76_15=0.03_18=0.21  sum expections= 0.00333576
+	HEURISTIC ESTIMATION:	Gains = 0	Losses = 0.06	Duplications = 0.24	Demi-dupl = 0
+N49:ML=9 to L_perenne:ML=8=0.06_9=0.66_15=0.03_18=0.25  sum expections= 0.0137106
+	HEURISTIC ESTIMATION:	Gains = 0	Losses = 0.12	Duplications = 0.28	Demi-dupl = 0
+N47:ML=9 to L_leonii:ML=9=0.83_10=0.17  sum expections= 0.0289313
+	HEURISTIC ESTIMATION:	Gains = 0.17	Losses = 0	Duplications = 0	Demi-dupl = 0
+N51:ML=9 to L_austriacum:ML=9=0.97_18=0.03  sum expections= 0.0133559
+	HEURISTIC ESTIMATION:	Gains = 0	Losses = 0	Duplications = 0.03	Demi-dupl = 0
+N45:ML=9 to L_pallescens:ML=9=0.75_15=0.25  sum expections= 0.0348234
+	HEURISTIC ESTIMATION:	Gains = 0	Losses = 0.5	Duplications = 0.25	Demi-dupl = 0
+N52:ML=9 to L_nervosum:ML=9=0.33_15=0.34_27=0.33  sum expections= 0.151345
+	HEURISTIC ESTIMATION:	Gains = 0	Losses = 5.3	Duplications = 1.66	Demi-dupl = 0
+N56:ML=15 to L_bienne:ML=9=0.04_15=0.78_16=0.14_30=0.04  sum expections= 0.0902307
+	HEURISTIC ESTIMATION:	Gains = 0.14	Losses = 0.24	Duplications = 0.04	Demi-dupl = 0
+N56:ML=15 to L_usitatissimum:ML=15=0.77_16=0.22_30=0.01  sum expections= 0.0690651
+	HEURISTIC ESTIMATION:	Gains = 0.22	Losses = 0	Duplications = 0.01	Demi-dupl = 0
+N54:ML=9 to L_narbonense:ML=7=0.11_9=0.19_10=0.07_14=0.52_15=0.11  sum expections= 1.4367
+	HEURISTIC ESTIMATION:	Gains = 0.07	Losses = 1.48	Duplications = 0.63	Demi-dupl = 0
+N57:ML=9 to L_decumbens1:ML=9=0.67_16=0.33  sum expections= 0.424451
+	HEURISTIC ESTIMATION:	Gains = 0	Losses = 0.33	Duplications = 0.33	Demi-dupl = 0
+N41:ML=9 to L_stelleroides:ML=9=0.5_10=0.5  sum expections= 2.39141
+	HEURISTIC ESTIMATION:	Gains = 0.5	Losses = 0	Duplications = 0	Demi-dupl = 0
+N60:ML=8 to L_hirsutum:ML=8=0.88_9=0.06_15=0.06  sum expections= 0.131858
+	HEURISTIC ESTIMATION:	Gains = 0.06	Losses = 0.06	Duplications = 0.06	Demi-dupl = 0
+N58:ML=8 to L_pubescens:ML=8=0.5_9=0.5  sum expections= 0.555303
+	HEURISTIC ESTIMATION:	Gains = 0.5	Losses = 0	Duplications = 0	Demi-dupl = 0
+N1:ML=10 to Re_indica:ML=10=0.29_11=0.71  sum expections= 4.57028
+	HEURISTIC ESTIMATION:	Gains = 0.71	Losses = 0	Duplications = 0	Demi-dupl = 0
+#+++++++++++++++++++++++++++++
+
+#ALL EVENTS EXPECTATIONS PER NODE
+NODE	GAIN	LOSS	DUPLICATION	DEMI-DUPLICATION
+N2	0.0751187	0.387789	0.00236491	0
+N3	0.417599	1.63381	0.00304436	0
+N4	0.057838	0.182071	4.87308e-05	0
+N5	0.0459687	0.0496364	2.94907e-05	0
+N6	0.0913797	0.180581	2.62184e-05	0
+N7	0.150548	0.20244	1.13263e-05	0
+L_corymbiferum	0	0.8	0.4	0
+N8	0.0278034	0.00152132	4.3441e-08	0
+L_gallicum	0.895629	0.00531808	6.03013e-10	0
+L_strictum	0	0.2	0.14	0
+N9	0.0572119	0.166191	5.15187e-06	0
+L_setaceum	0.0329229	0.0592113	6.27424e-08	0
+N10	0.0311249	0.0564007	0.401137	0
+L_suffruticosum1	0	0	1.73	0
+L_tenuifolium1	0	0.07	0.19	0
+N11	0.118326	0.150518	0.00495698	0
+N12	0.201858	2.08764	0.900871	0
+N13	0.0661649	0.0520954	0.0146555	0
+N14	0.0373919	0.0616126	0.00138931	0
+L_album	0.00527036	0.00784231	1.17615e-05	0
+L_mucronatum1	0.00527036	0.00784231	1.17615e-05	0
+N15	0.0248863	0.0366727	0.00139219	0
+N16	0.00081547	0.00699168	8.79035e-06	0
+N17	0.000740083	0.00704104	8.5284e-08	0
+N18	0.0014064	0.00152405	2.12453e-09	0
+L_arboreum	0.00400218	0.00641393	7.69907e-11	0
+L_elegans	0.33	0	0	0
+L_campanulatum	0	0.85	0	0
+N19	0.00642367	0.000927037	8.54095e-08	0
+L_capitatum	0.3	0.2	0	0
+N20	0.0258241	0.000253248	1.68872e-09	0
+L_gyaricum	0.965269	0.00517097	1.13229e-10	0
+L_tauricum	0	1.25	0	0
+L_flavum	0.5	0	0	0
+L_nodiflorum	0	0.86	0	0
+N21	0.657156	0.114085	0.00487857	0
+N22	0.218244	0.0645844	0.00121663	0
+N23	0.0116637	0.0531844	3.01136e-05	0
+L_corymbulosum	4.22446e-05	0.919296	1.97314e-08	0
+L_trigynum	0.0807829	3.63552e-05	1.97316e-08	0
+L_tenue1	0	0.42	0.28	0
+L_maritimum	0	0.2	0	0
+L_catharticum	0.17222	1.40125	0.0003196	0
+N24	0.0968861	0.324909	5.36237e-05	0
+N25	0.03587	0.207798	4.0027e-06	0
+N26	0.0285896	0.00505286	1.16628e-08	0
+N27	0.0241456	0.00943856	0.885688	0
+N28	0.0572129	0.026941	0.101567	0
+C_selaginoides	0.200934	0.217322	0.0126843	0
+N29	0.0355575	0.0363652	0.0118683	0
+L_littorale	0	0	0.67	0
+N30	0.0186067	0.0269759	0.000793621	0
+N31	0.00511786	0.00765285	2.0807e-05	0
+L_macraei	0.0325327	0.0389747	1	0
+L_prostratum	0.0287741	0.033425	1.5073e-06	0
+L_oligophyllum	0.0476673	0.054853	2.23345e-05	0
+N32	0.00823264	0.121829	0.0262778	0
+N33	0.00536902	0.447861	0.0499103	0
+L_kingii	0.0553087	4.30335	0.00825308	0
+N34	0.0786098	0.173671	0.0317836	0
+L_rupestre	0.746804	0.0585204	0.00617303	0
+L_vernale	0.0167874	2.32289	0.00617209	0
+L_striatum	0	3.06	0	0
+N35	0.0116011	0.10098	5.70051e-10	0
+He_micranthum	0.238845	0.108644	0.999888	0
+S_digynum	0.00072332	2.88692	3.258e-08	0
+N36	0.0375176	1.94312	0.999563	0
+N37	0.00161236	0.0535184	0.000407039	0
+N38	0.0025298	0.0606623	2.1612e-05	0
+N39	0.0126982	0.0874749	9.34736e-07	0
+L_acuticarpum	0.00595326	0.0144896	6.37254e-10	0
+L_gracile	0.00595326	0.0144896	6.37254e-10	0
+L_heterostylum	0.0349055	0.118219	9.35373e-07	0
+L_africanum	0.2	0.1	0.1	0
+L_comptonii	0.0510978	0.244453	0.000431005	0
+Ra_linoides	0.269906	0.394272	7.41244e-05	0
+N40	0.164757	0.647315	0.00152232	0
+N41	0.0827236	0.163294	0.000282062	0
+N42	0.134447	0.414223	0.000356409	0
+N43	0.134819	0.452167	8.63282e-05	0
+N44	0.18999	0.584352	8.34551e-05	0
+N45	0.00206815	0.0102683	2.7998e-08	0
+N46	0.000388872	0.00121418	1.55497e-11	0
+N47	0.0011931	0.00105786	2.29437e-13	0
+N48	0.00204449	0.00237393	2.16044e-13	0
+N49	0.00112749	0.00126099	1.37302e-13	0
+N50	0.000894148	0.000879127	4.04585e-15	0
+L_alpinum	0	0.06	0.24	0
+L_punctatum1	0.000732848	0.000741296	2.594e-16	0
+L_perenne	0	0.12	0.28	0
+L_lewisii	0.00422627	0.0043532	1.40309e-13	0
+L_leonii	0.17	0	0	0
+N51	0.00250391	0.00237762	2.34646e-13	0
+L_austr_mauritanicum	0.0059897	0.00643712	2.39095e-12	0
+L_austriacum	0	0	0.03	0
+L_pallescens	0	0.5	0.25	0
+L_pycnophyllum	0.0251062	0.0344527	2.81564e-08	0
+N52	0.215313	0.622452	0.0390891	0
+L_aroanium1	0.0612581	0.0591294	0.961007	0
+L_nervosum	0	5.3	1.66	0
+N53	0.157822	0.393987	0.000133074	0
+N54	0.0518631	0.0620234	0.0483991	0
+N55	0.260273	0.295448	0.65711	0
+N56	0.142886	3.29172	0.277614	0
+L_bienne	0.14	0.24	0.04	0
+L_usitatissimum	0.22	0	0.01	0
+L_hologynum	1.92131	0.307534	0.298946	0
+L_narbonense	0.07	1.48	0.63	0
+N57	0.104884	0.670556	2.36563e-05	0
+L_decumbens1	0	0.33	0.33	0
+L_grandiflorum	0.0338548	0.953085	5.22694e-06	0
+L_stelleroides	0.5	0	0	0
+N58	0.325434	1.98594	0.00122237	0
+N59	0.0204679	0.280553	6.34957e-05	0
+N60	0.0140898	0.106087	9.20523e-06	0
+L_hirsutum	0.06	0.06	0.06	0
+L_seljukorum	0.0320335	0.102708	2.05704e-06	0
+L_viscosum	0.066202	0.228874	1.11184e-05	0
+L_pubescens	0.5	0	0	0
+Re_indica	0.71	0	0	0
+#+++++++++++++++++++++++++++++
+
+#Expected number of events from root to leaf
+LEAF	GAIN	LOSS	DUPLICATION	DEMI-DUPLICATION
+L_corymbiferum	0.838452	3.43633	0.405525	0
+L_gallicum	1.76188	2.64317	0.00552508	0
+L_strictum	0.866256	2.83785	0.145525	0
+L_setaceum	0.778039	2.65929	0.00551893	0
+L_suffruticosum1	0.776241	2.65648	2.13666	0
+L_tenuifolium1	0.776241	2.72648	0.596656	0
+L_album	1.02553	4.61302	0.927372	0
+L_mucronatum1	1.02553	4.61302	0.927372	0
+L_arboreum	1.01472	4.60221	0.927372	0
+L_elegans	1.34072	4.59579	0.927372	0
+L_campanulatum	1.00931	5.44427	0.927372	0
+L_capitatum	1.315	4.78815	0.927372	0
+L_gyaricum	2.00609	4.59358	0.927372	0
+L_tauricum	1.04082	5.83841	0.927372	0
+L_flavum	1.50776	4.58024	0.927363	0
+L_nodiflorum	0.916707	5.35147	0.911315	0
+L_corymbulosum	1.60196	3.55497	0.0165698	0
+L_trigynum	1.6827	2.63571	0.0165698	0
+L_tenue1	1.59025	3.00249	0.29654	0
+L_maritimum	1.37201	2.71791	0.015323	0
+L_catharticum	0.722776	3.60492	0.00577761	0
+C_selaginoides	0.936355	2.81306	1.00541	0
+L_littorale	0.770979	2.6321	1.67459	0
+L_macraei	0.827236	2.70571	2.00541	0
+L_prostratum	0.823478	2.70016	1.00541	0
+L_oligophyllum	0.837253	2.71393	1.00541	0
+L_kingii	0.747119	7.44184	0.975596	0
+L_rupestre	1.51722	3.37068	1.0053	0
+L_vernale	0.787208	5.63505	1.0053	0
+L_striatum	0.686442	5.75063	0.917433	0
+He_micranthum	0.904509	2.76898	1.00536	0
+S_digynum	0.666388	5.54726	0.00546695	0
+L_acuticarpum	0.685785	4.71357	1.00546	0
+L_gracile	0.685785	4.71357	1.00546	0
+L_heterostylum	0.702039	4.72983	1.00546	0
+L_africanum	0.864604	4.65095	1.10544	0
+L_comptonii	0.714089	4.74188	1.00546	0
+Ra_linoides	0.859509	2.74078	0.00553702	0
+L_alpinum	0.789571	2.72619	0.244696	0
+L_punctatum1	0.790304	2.66693	0.00469551	0
+L_perenne	0.788677	2.78531	0.284696	0
+L_lewisii	0.791776	2.66841	0.00469551	0
+L_leonii	0.955505	2.66168	0.00469551	0
+L_austr_mauritanicum	0.792806	2.66944	0.00469551	0
+L_austriacum	0.786816	2.663	0.0346955	0
+L_pallescens	0.783923	3.15941	0.254696	0
+L_pycnophyllum	0.806961	2.68359	0.00469551	0
+L_aroanium1	0.868436	2.74637	1.00471	0
+L_nervosum	0.807178	7.98724	1.7037	0
+L_bienne	1.20989	5.8958	1.02778	0
+L_usitatissimum	1.28989	5.6558	0.997782	0
+L_hologynum	2.84832	2.67161	1.00911	0
+L_narbonense	0.736732	3.54863	0.683058	0
+L_decumbens1	0.719753	3.00716	0.334682	0
+L_grandiflorum	0.753608	3.63025	0.00468766	0
+L_stelleroides	0.822599	1.1984	0.00416929	0
+L_hirsutum	0.659867	3.46768	0.0651823	0
+L_seljukorum	0.631901	3.51039	0.00518436	0
+L_viscosum	0.65198	3.53047	0.00518421	0
+L_pubescens	1.06531	3.02104	0.0051096	0
+Re_indica	0.71	0	0	0

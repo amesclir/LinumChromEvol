@@ -1,0 +1,458 @@
+#Nodes with GAIN events with expectation above 0.5
+N2: 8.07068
+N3: 43.9545
+N4: 7.54704
+N5: 3.92976
+N6: 10.8503
+N7: 16.1646
+L_corymbiferum: 2.17782
+N8: 0.834203
+L_gallicum: 1.81683
+L_strictum: 1.29687
+N9: 12.0407
+L_setaceum: 6.77052
+N10: 10.3507
+N11: 7.31315
+N12: 14.4532
+N13: 2.21764
+N14: 5.60739
+L_album: 2.11685
+L_mucronatum1: 2.11685
+N15: 3.67569
+N16: 0.53078
+N17: 0.802401
+N18: 0.809429
+L_arboreum: 1.76978
+L_elegans: 1.76978
+L_campanulatum: 2.61263
+N19: 0.674282
+L_capitatum: 2.73528
+N20: 0.534251
+L_gyaricum: 2.72594
+L_tauricum: 2.72594
+L_flavum: 4.55937
+L_nodiflorum: 9.54619
+N21: 9.63687
+N22: 8.05989
+N23: 3.67672
+L_trigynum: 0.923031
+L_tenue1: 4.67203
+L_maritimum: 12.7999
+L_catharticum: 32.4473
+N24: 14.2552
+N25: 10.0164
+N26: 1.61343
+N27: 3.14407
+N28: 6.28826
+C_selaginoides: 10.6625
+N29: 6.02606
+L_littorale: 14.4085
+N30: 2.41506
+N31: 1.86912
+L_macraei: 7.87747
+L_prostratum: 2.13067
+L_oligophyllum: 3.28446
+N32: 1.43287
+N33: 1.78289
+L_kingii: 10.7286
+N34: 4.63422
+L_rupestre: 8.68558
+L_vernale: 7.12645
+L_striatum: 10.8851
+N35: 4.3547
+He_micranthum: 15.4499
+S_digynum: 9.91633
+N36: 12.2045
+N37: 0.541643
+N38: 0.928594
+N39: 3.44506
+L_acuticarpum: 2.34397
+L_gracile: 2.34397
+L_heterostylum: 5.86968
+L_africanum: 6.81859
+L_comptonii: 7.40408
+Ra_linoides: 26.6714
+N40: 16.3589
+N41: 6.44559
+N42: 14.1811
+N43: 15.9004
+N44: 23.3707
+N45: 1.35787
+N46: 0.522419
+N47: 0.960408
+N48: 1.98716
+N49: 1.20285
+N50: 0.852399
+L_alpinum: 0.691427
+L_punctatum1: 0.691427
+L_perenne: 1.62616
+L_lewisii: 2.93218
+L_leonii: 5.00127
+N51: 2.04516
+L_austr_mauritanicum: 3.88966
+L_austriacum: 3.88966
+L_pallescens: 6.53921
+L_pycnophyllum: 7.90364
+N52: 28.6334
+L_aroanium1: 7.71357
+L_nervosum: 6.09375
+N53: 16.5258
+N54: 4.13611
+N55: 12.8265
+N56: 16.0296
+L_bienne: 1.1711
+L_usitatissimum: 1.1711
+L_hologynum: 20.5063
+L_narbonense: 29.5008
+N57: 16.4025
+L_decumbens1: 14.4642
+L_grandiflorum: 13.944
+L_stelleroides: 60.6839
+N58: 43.8505
+N59: 6.43
+N60: 5.36878
+L_hirsutum: 10.5991
+L_seljukorum: 10.5991
+L_viscosum: 15.9403
+L_pubescens: 22.2787
+Re_indica: 93.6587
+Total number of gain events: 1072.25
+#+++++++++++++++++++++++++++++
+
+#Nodes with LOSS events with expectation above 0.5
+N2: 7.73127
+N3: 40.4809
+N4: 7.47683
+N5: 3.38515
+N6: 9.58195
+N7: 17.5069
+L_corymbiferum: 2.48964
+N8: 0.7516
+L_gallicum: 1.21125
+L_strictum: 1.69129
+N9: 9.10463
+L_setaceum: 11.3608
+N10: 4.49611
+L_tenuifolium1: 1.48511
+N11: 6.59684
+N12: 11.5941
+N13: 1.71627
+N14: 5.18678
+L_album: 1.99988
+L_mucronatum1: 1.99988
+N15: 2.96473
+N16: 0.504628
+N17: 0.918147
+N18: 0.865741
+L_arboreum: 1.79715
+L_elegans: 1.79715
+L_campanulatum: 2.69633
+N19: 0.540306
+L_capitatum: 3.06873
+L_gyaricum: 2.22474
+L_tauricum: 2.22474
+L_flavum: 3.73275
+L_nodiflorum: 9.50706
+N21: 10.0848
+N22: 8.06821
+N23: 3.82137
+L_corymbulosum: 0.937416
+L_tenue1: 4.31746
+L_maritimum: 12.4536
+L_catharticum: 33.2879
+N24: 12.0521
+N25: 7.20813
+N26: 1.20389
+N27: 1.82519
+N28: 2.268
+C_selaginoides: 12.2101
+N29: 1.82681
+L_littorale: 3.56235
+N30: 2.85895
+N31: 0.821095
+L_macraei: 0.716937
+L_prostratum: 8.3638
+L_oligophyllum: 8.59818
+N32: 2.22574
+N33: 1.75146
+L_kingii: 12.4777
+N34: 3.77857
+L_rupestre: 6.2904
+L_vernale: 7.73126
+L_striatum: 16.6029
+N35: 5.4091
+He_micranthum: 10.5871
+S_digynum: 17.0522
+N36: 11.3244
+N37: 0.507904
+N38: 0.878793
+N39: 3.28588
+L_acuticarpum: 2.24873
+L_gracile: 2.24873
+L_heterostylum: 5.61526
+L_africanum: 6.51448
+L_comptonii: 7.06633
+Ra_linoides: 28.645
+N40: 15.909
+N41: 5.96966
+N42: 12.49
+N43: 14.4395
+N44: 23.9772
+N45: 1.33098
+N46: 0.509388
+N47: 0.931713
+N48: 1.92186
+N49: 1.16056
+N50: 0.821423
+L_alpinum: 0.666943
+L_punctatum1: 0.666943
+L_perenne: 1.5707
+L_lewisii: 2.83444
+L_leonii: 4.83823
+N51: 1.98265
+L_austr_mauritanicum: 3.76047
+L_austriacum: 3.76047
+L_pallescens: 6.33444
+L_pycnophyllum: 7.67197
+N52: 22.4374
+L_aroanium1: 5.28445
+L_nervosum: 6.66462
+N53: 14.2703
+N54: 2.93002
+N55: 9.32387
+N56: 15.9349
+L_bienne: 1.14667
+L_usitatissimum: 1.14667
+L_hologynum: 14.387
+L_narbonense: 26.8775
+N57: 18.2927
+L_decumbens1: 13.7435
+L_grandiflorum: 14.2233
+L_stelleroides: 57.9067
+N58: 43.4718
+N59: 6.19731
+N60: 4.91447
+L_hirsutum: 9.41148
+L_seljukorum: 9.41148
+L_viscosum: 14.2984
+L_pubescens: 20.4042
+Re_indica: 87.6163
+Total number of loss events: 1004.05
+#+++++++++++++++++++++++++++++
+
+#Nodes with duplication events with expectation above 0.5
+N2: 1.1264
+N3: 3.70365
+L_catharticum: 1.3748
+N40: 2.03507
+N41: 0.70086
+N42: 1.12243
+N43: 0.795005
+N44: 0.771655
+N53: 0.650685
+N57: 0.561251
+L_stelleroides: 4.22154
+N58: 4.66606
+N59: 0.546382
+L_viscosum: 0.653593
+L_pubescens: 1.27987
+Re_indica: 6.27202
+Total number of duplication events: 34.4642
+#+++++++++++++++++++++++++++++
+
+#Nodes with demi-duplication events with expectation above 0.5
+Total number of demi-dulications events: 0
+#+++++++++++++++++++++++++++++
+
+#EVENTS NOT ACCOUNTED FOR IN THE SIMULATIONS: 
+N10:ML=20 to L_suffruticosum1:ML=36  sum expections= 0.0125541
+	HEURISTIC ESTIMATION:	Gains = 16	Losses = 0	Duplications = 0	Demi-dupl = 0
+#+++++++++++++++++++++++++++++
+
+#ALL EVENTS EXPECTATIONS PER NODE
+NODE	GAIN	LOSS	DUPLICATION	DEMI-DUPLICATION
+N2	8.07068	7.73127	1.1264	0
+N3	43.9545	40.4809	3.70365	0
+N4	7.54704	7.47683	0.278286	0
+N5	3.92976	3.38515	0.0991528	0
+N6	10.8503	9.58195	0.17362	0
+N7	16.1646	17.5069	0.152335	0
+L_corymbiferum	2.17782	2.48964	5.63732e-07	0
+N8	0.834203	0.7516	9.09102e-08	0
+L_gallicum	1.81683	1.21125	0	0
+L_strictum	1.29687	1.69129	9.2586e-11	0
+N9	12.0407	9.10463	0.0373099	0
+L_setaceum	6.77052	11.3608	0.000781234	0
+N10	10.3507	4.49611	4.5994e-05	0
+L_suffruticosum1	16	0	0	0
+L_tenuifolium1	0.0432055	1.48511	3.64794e-19	0
+N11	7.31315	6.59684	0.121841	0
+N12	14.4532	11.5941	0.0627766	0
+N13	2.21764	1.71627	2.83099e-06	0
+N14	5.60739	5.18678	2.19711e-07	0
+L_album	2.11685	1.99988	0	0
+L_mucronatum1	2.11685	1.99988	0	0
+N15	3.67569	2.96473	3.31879e-08	0
+N16	0.53078	0.504628	1.66582e-17	0
+N17	0.802401	0.918147	7.85654e-21	0
+N18	0.809429	0.865741	8.13279e-21	0
+L_arboreum	1.76978	1.79715	0	0
+L_elegans	1.76978	1.79715	0	0
+L_campanulatum	2.61263	2.69633	0	0
+N19	0.674282	0.540306	4.56194e-22	0
+L_capitatum	2.73528	3.06873	0	0
+N20	0.534251	0.368894	2.27447e-22	0
+L_gyaricum	2.72594	2.22474	0	0
+L_tauricum	2.72594	2.22474	0	0
+L_flavum	4.55937	3.73275	0	0
+L_nodiflorum	9.54619	9.50706	0.000248207	0
+N21	9.63687	10.0848	0.123225	0
+N22	8.05989	8.06821	0.0402247	0
+N23	3.67672	3.82137	0.000151636	0
+L_corymbulosum	0.436642	0.937416	0	0
+L_trigynum	0.923031	0.423805	0	0
+L_tenue1	4.67203	4.31746	0.000274745	0
+L_maritimum	12.7999	12.4536	0.0621282	0
+L_catharticum	32.4473	33.2879	1.3748	0
+N24	14.2552	12.0521	0.33634	0
+N25	10.0164	7.20813	0.0227385	0
+N26	1.61343	1.20389	5.81623e-06	0
+N27	3.14407	1.82519	5.95561e-07	0
+N28	6.28826	2.268	1.71494e-09	0
+C_selaginoides	10.6625	12.2101	1.91977e-13	0
+N29	6.02606	1.82681	2.60079e-14	0
+L_littorale	14.4085	3.56235	0	0
+N30	2.41506	2.85895	1.57468e-22	0
+N31	1.86912	0.821095	8.48681e-29	0
+L_macraei	7.87747	0.716937	0	0
+L_prostratum	2.13067	8.3638	0	0
+L_oligophyllum	3.28446	8.59818	0	0
+N32	1.43287	2.22574	1.51108e-08	0
+N33	1.78289	1.75146	5.7563e-08	0
+L_kingii	10.7286	12.4777	2.8599e-05	0
+N34	4.63422	3.77857	2.13469e-07	0
+L_rupestre	8.68558	6.2904	0	0
+L_vernale	7.12645	7.73126	9.19286e-08	0
+L_striatum	10.8851	16.6029	0.00143612	0
+N35	4.3547	5.4091	8.74383e-05	0
+He_micranthum	15.4499	10.5871	0.000508282	0
+S_digynum	9.91633	17.0522	0.048933	0
+N36	12.2045	11.3244	0.000298077	0
+N37	0.541643	0.507904	3.03908e-11	0
+N38	0.928594	0.878793	3.29364e-12	0
+N39	3.44506	3.28588	1.42565e-11	0
+L_acuticarpum	2.34397	2.24873	0	0
+L_gracile	2.34397	2.24873	0	0
+L_heterostylum	5.86968	5.61526	3.33408e-12	0
+L_africanum	6.81859	6.51448	6.90051e-09	0
+L_comptonii	7.40408	7.06633	2.19998e-08	0
+Ra_linoides	26.6714	28.645	0.444496	0
+N40	16.3589	15.909	2.03507	0
+N41	6.44559	5.96966	0.70086	0
+N42	14.1811	12.49	1.12243	0
+N43	15.9004	14.4395	0.795005	0
+N44	23.3707	23.9772	0.771655	0
+N45	1.35787	1.33098	0.000606241	0
+N46	0.522419	0.509388	2.0963e-05	0
+N47	0.960408	0.931713	1.03944e-05	0
+N48	1.98716	1.92186	1.5026e-05	0
+N49	1.20285	1.16056	1.54667e-07	0
+N50	0.852399	0.821423	2.65229e-10	0
+L_alpinum	0.691427	0.666943	0	0
+L_punctatum1	0.691427	0.666943	0	0
+L_perenne	1.62616	1.5707	1.17562e-10	0
+L_lewisii	2.93218	2.83444	2.90549e-06	0
+L_leonii	5.00127	4.83823	0.000181324	0
+N51	2.04516	1.98265	5.35264e-05	0
+L_austr_mauritanicum	3.88966	3.76047	1.92007e-05	0
+L_austriacum	3.88966	3.76047	1.92007e-05	0
+L_pallescens	6.53921	6.33444	0.00144037	0
+L_pycnophyllum	7.90364	7.67197	0.00837423	0
+N52	28.6334	22.4374	0.328328	0
+L_aroanium1	7.71357	5.28445	0	0
+L_nervosum	6.09375	6.66462	8.83032e-08	0
+N53	16.5258	14.2703	0.650685	0
+N54	4.13611	2.93002	0.0493937	0
+N55	12.8265	9.32387	0.0430659	0
+N56	16.0296	15.9349	0.00264205	0
+L_bienne	1.1711	1.14667	0	0
+L_usitatissimum	1.1711	1.14667	0	0
+L_hologynum	20.5063	14.387	0.000638853	0
+L_narbonense	29.5008	26.8775	0.168819	0
+N57	16.4025	18.2927	0.561251	0
+L_decumbens1	14.4642	13.7435	0.265912	0
+L_grandiflorum	13.944	14.2233	0.314464	0
+L_stelleroides	60.6839	57.9067	4.22154	0
+N58	43.8505	43.4718	4.66606	0
+N59	6.43	6.19731	0.546382	0
+N60	5.36878	4.91447	0.318586	0
+L_hirsutum	10.5991	9.41148	0.236551	0
+L_seljukorum	10.5991	9.41148	0.236551	0
+L_viscosum	15.9403	14.2984	0.653593	0
+L_pubescens	22.2787	20.4042	1.27987	0
+Re_indica	93.6587	87.6163	6.27202	0
+#+++++++++++++++++++++++++++++
+
+#Expected number of events from root to leaf
+LEAF	GAIN	LOSS	DUPLICATION	DEMI-DUPLICATION
+L_corymbiferum	92.6946	88.6527	5.53345	0
+L_gallicum	93.1678	88.1259	5.53344	0
+L_strictum	92.6479	88.6059	5.53344	0
+L_setaceum	93.1634	89.1216	5.4192	0
+L_suffruticosum1	112.744	82.2569	5.41847	0
+L_tenuifolium1	96.7868	83.742	5.41847	0
+L_album	95.2102	86.1681	5.39211	0
+L_mucronatum1	95.2102	86.1681	5.39211	0
+L_arboreum	95.0741	86.0318	5.39211	0
+L_elegans	95.0741	86.0318	5.39211	0
+L_campanulatum	95.1075	86.0653	5.39211	0
+L_capitatum	95.102	86.0598	5.39211	0
+L_gyaricum	95.6269	85.5847	5.39211	0
+L_tauricum	95.6269	85.5847	5.39211	0
+L_flavum	95.721	85.6789	5.39211	0
+L_nodiflorum	94.8145	86.7722	5.39236	0
+L_corymbulosum	92.6252	88.5828	5.49293	0
+L_trigynum	93.1116	88.0692	5.49293	0
+L_tenue1	93.1839	88.1415	5.49306	0
+L_maritimum	93.2518	88.2095	5.51468	0
+L_catharticum	92.0195	88.9769	6.48313	0
+C_selaginoides	98.005	84.9796	5.18914	0
+L_littorale	107.777	78.1587	5.18914	0
+L_macraei	105.53	78.9933	5.18914	0
+L_prostratum	99.7833	86.6402	5.18914	0
+L_oligophyllum	99.068	86.0535	5.18914	0
+L_kingii	94.9985	86.9565	5.18917	0
+L_rupestre	97.5897	84.5477	5.18914	0
+L_vernale	96.0306	85.9886	5.18914	0
+L_striatum	93.3722	89.3302	5.19057	0
+He_micranthum	97.7146	84.6726	5.18973	0
+S_digynum	92.1811	91.1377	5.23816	0
+L_acuticarpum	95.7604	85.7182	5.18943	0
+L_gracile	95.7604	85.7182	5.18943	0
+L_heterostylum	95.8411	85.7988	5.18943	0
+L_africanum	95.8614	85.8193	5.18943	0
+L_comptonii	95.9052	85.8632	5.18943	0
+Ra_linoides	92.9517	88.9093	5.61089	0
+L_alpinum	91.9018	87.8596	6.55207	0
+L_punctatum1	91.9018	87.8596	6.55207	0
+L_perenne	91.9842	87.9419	6.55207	0
+L_lewisii	92.0873	88.0451	6.55207	0
+L_leonii	92.1693	88.127	6.55223	0
+L_austr_mauritanicum	92.1424	88.1002	6.55211	0
+L_austriacum	92.1424	88.1002	6.55211	0
+L_pallescens	92.2244	88.1821	6.55346	0
+L_pycnophyllum	92.2309	88.1887	6.55979	0
+L_aroanium1	97.3036	84.2613	6.10809	0
+L_nervosum	95.6837	85.6415	6.10809	0
+L_bienne	95.7453	85.7057	5.73054	0
+L_usitatissimum	95.7453	85.7057	5.73054	0
+L_hologynum	99.0508	83.0112	5.72854	0
+L_narbonense	95.219	86.1777	5.85365	0
+L_decumbens1	92.4488	88.4064	6.4626	0
+L_grandiflorum	91.9285	88.8862	6.51115	0
+L_stelleroides	91.559	87.5166	8.08387	0
+L_hirsutum	90.6779	87.6354	8.92905	0
+L_seljukorum	90.6779	87.6354	8.92905	0
+L_viscosum	90.6503	87.6078	9.0275	0
+L_pubescens	90.5587	87.5163	9.1074	0
+Re_indica	93.6587	87.6163	6.27202	0

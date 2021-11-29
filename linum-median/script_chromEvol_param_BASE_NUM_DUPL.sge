@@ -1,0 +1,9 @@
+#$ -S /bin/bash
+#$ -N chromEvol_param_BASE_NUM_DUPL_linum
+#$ -wd /home/aescudero/PIP/linum
+#$ -o chromevol_linum.salida
+#$ -e chromevol_linum.err
+#$ -q diaria_simple
+/home/aescudero/PIP/chromEvol param_BASE_NUM_DUPL
+
+

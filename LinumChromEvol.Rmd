@@ -3,6 +3,8 @@ title: "LinumChromEvol"
 author: "Marcial Escudero"
 date: "10/26/2021"
 output: html_document
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r}
@@ -18,5 +20,121 @@ mytree <- drop.tip(mytree, tipstoremove)
 mytree
 write.tree(mytree, file= "linum.tree")
 
+```
+
+Plotting some results from ChromEvol 1.0
+```{r}
+library(ape)
+myChromEvol <- read.ce("./linum/mediam/OUT/CONST_RATE_DEMI")
+plot.anc(myChromEvol)
+
+```
+
+
+Plotting the ChromoSSE results
+
+```{r}
+#library(devtools)
+#devtools::install_github("cmt2/RevGadgets", force = T)
+
+library(RevGadgets)
+library(coda)
+library(ggplot2)
+library(ggtree)
+library(grid)
+library(gridExtra)
+
+file <- "ChromoSSE_final.tree"
+labs <- c("10" = "10", "11" = "11", "13" = "13", "14" = "14", "15" = "15", "16" = "16", "17" = "17", "18" = "18", "19" = "19", "21" = "21", "36" = "36", "6" = "6", "7" = "7", "8" = "8", "9" = "9")
+
+dec_example <- processAncStates(file, labs)
+
+plotAncStatesPie(dec_example, cladogenetic = T, tip_labels_offset = 0.2)
+
+# You can see the states sampled in the analysis in the
+# dec_example@state_labels vector. This may be different 
+# from the `labs` vector you provided above if not all 
+# possible states are included in the annotated tree.
+dec_example@state_labels
+
+# We are going to generate colors for these states using
+# a color palette, but you could also specify a color per
+# state manually. 
+
+# Get the length of the dec_example$state_labels vector
+# to know how many colors you need. 
+ncol <- length(dec_example@state_labels)
+ncol
+# We use colorRampPalette() to generate a function that will
+# expand the RevGadgets color palette (colFun) to the necessary
+# number of colors, but you can use any colors you like as long 
+# as each state_label has a color. 
+colors <- colorRampPalette(colFun(12))(ncol)
+
+# Name the color vector with your state labels and then order 
+# it in the order you'd like the ranges to appear in your legend.
+# Otherwise, they will appear alphabetically. 
+names(colors) <- dec_example@state_labels
+colors
+#colors <- colors[c(10,11, 13,14,15,16,17,18,19,21,36,6,7,8,9)]
+
+# Plot the results with pies at nodes
+pie <- plotAncStatesPie(t = dec_example,
+                        # Include cladogenetic events
+                        cladogenetic = TRUE, 
+                        # Add text labels to the tip pie symbols
+                        tip_labels_states = TRUE,
+                        # Offset those text labels slightly
+                        tip_labels_states_offset = .05,
+                        # Pass in your named and ordered color vector
+                        pie_colors = colors, 
+                        # Offset the tip labels to make room for tip pies
+                        tip_labels_offset = .2, 
+                        # Move tip pies right slightly 
+                        tip_pie_nudge_x = .07,
+                        # Change the size of node and tip pies  
+                        tip_pie_size = 0.8,
+                        node_pie_size = 1.5) +
+  # Move the legend 
+  theme(legend.position = c(0.1, 0.75))
+
+map <- plotAncStatesMAP(t = dec_example, 
+                        # Include cladogenetic events
+                        cladogenetic = T,
+                        # Pass in the same color vector
+                        node_color = colors,
+                        # adjust tip labels 
+                        tip_labels_offset = 0.1,
+                        # increase tip states symbol size
+                        tip_states_size = 3) +
+  # adjust legend position and remove color guide
+  theme(legend.position = c(0.2, 0.87)) + 
+  guides(color = "none")
+
+```
+
+Visualizing the parameters
+
+```{r}
+
+# specify the input file
+file <- "ChromoSSE_model.log"
+
+# read the trace and discard burnin
+trace_quant <- readTrace(path = file, burnin = 0.1)
+
+# or read the trace _then_ discard burnin
+trace_quant <- readTrace(path = file, burnin = 0)
+trace_quant <- removeBurnin(trace = trace_quant, burnin = 0.1)
+
+library(coda)
+trace_quant_MCMC <- as.mcmc(trace_quant[[1]])
+effectiveSize(trace_quant_MCMC)
+#traceplot(trace_quant_MCMC)
+trace_quant
+summarizeTrace(trace = trace_quant, vars =  c("clado_fission","clado_fusion","clado_polyploid", "clado_demipoly", "gamma", "delta", "rho", "eta"))
+
+plotTrace(trace = trace_quant, vars = c("gamma", "delta", "rho", "eta"))[[1]]
+plotTrace(trace = trace_quant, vars = c("clado_fission","clado_fusion","clado_polyploid", "clado_demipoly", "clado_no_change"))[[1]]
 ```
 
